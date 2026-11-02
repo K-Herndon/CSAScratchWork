@@ -28,15 +28,11 @@ public class ProjectEuler {
       int valueOne = 1;
       int valueTwo = 2;
       int placeholerValue;
-      int sumEven = 0;
+      int sumEven = 2;
       while (valueTwo < (4000000)){
          placeholerValue = valueOne + valueTwo;
          valueOne = valueTwo;
          valueTwo = placeholerValue;
-         System.out.print(valueTwo + " ");
-         if (valueOne % 2 == 0){
-            sumEven = sumEven + valueOne;
-         }
          if (valueTwo % 2 == 0){
             sumEven = sumEven + valueTwo;
          }
