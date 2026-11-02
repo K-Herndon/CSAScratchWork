@@ -1,12 +1,12 @@
 public class ProjectEuler {
    
-   public static int problem1(int maxValue) {
+   public static int problem1() {
       int multipleNum = 1;
       int threeMultiple;
       int fiveMultiple;
       int threeMultiplesTotal = 0;
       int fiveMultiplesTotal = 0;
-      while (3 * multipleNum < maxValue){
+      while (3 * multipleNum < 1000){
          threeMultiple = 3 * multipleNum;
          if (threeMultiple % 5 == 0) {
             threeMultiple = 0;
@@ -45,7 +45,7 @@ public class ProjectEuler {
    }
    
    public static void main(String[] args) {
-      System.out.println("The answer to problem 1 is: " + problem1(1000));
+      System.out.println("The answer to problem 1 is: " + problem1());
       System.out.println("The answer to problem 2 is: " + problem2());      
    }  
 }
