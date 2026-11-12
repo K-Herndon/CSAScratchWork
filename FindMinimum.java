@@ -9,11 +9,10 @@ public class FindMinimum {
             num = placeholderNum;
          }
       }
-      System.out.println(num);
       return num;
    }
    public static void main(String[] args)
    {
-   findMin();
+   System.out.print(findMin());
    }
 }
